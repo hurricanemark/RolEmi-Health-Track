@@ -101,7 +101,7 @@ const App: React.FC = () => {
         message={error}
         buttons={[{ text: "Okay", handler: clearError }]}
       />
-      <IonApp>
+      <IonApp className="bg">
         <IonHeader>
           <IonToolbar color="primary">
             <IonTitle>RolEmi Health Track</IonTitle>
